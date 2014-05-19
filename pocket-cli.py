@@ -20,7 +20,7 @@ modify_url = api_base + 'send'
 
 class AuthHandler:
     key = '11411-11f6716adafdbf8ee3401509'
-    rc_file = expanduser('~/.pocketrc')
+    rc_file = expanduser('~/Dropbox/dotfiles/pocketrc')
     config = configparser.ConfigParser(allow_no_value=True)
     token = ""
 
